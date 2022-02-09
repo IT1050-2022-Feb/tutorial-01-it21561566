@@ -12,8 +12,17 @@ n -> 1-
 sum = 1+2+3+...+10 = 55 */
 
 #include <stdio.h>
-int main() {
-  
-  return 0;
+int main() 
+{
+  int sum , numb;
+
+  printf("Enter a number :  ");
+  scanf("%d" , &numb);
+
+    for(int i = 1 ; i <= numb ; i++){ 
+      sum = sum + i;
+    }
+  printf("Total of number 'n' : %d\n" , sum);  
+return 0;
 }
 
